@@ -1087,6 +1087,10 @@ section .container {
   overflow-y: auto;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .portfolio-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
