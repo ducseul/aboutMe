@@ -43,7 +43,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -73,7 +78,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header h1 a, #header h1 a:hover {
+#header h1 a,
+#header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
@@ -123,13 +129,16 @@ h1, h2, h3, h4, h5, h6 {
   #header h1 {
     font-size: 36px;
   }
+
   #header h2 {
     font-size: 20px;
     line-height: 30px;
   }
+
   #header .social-links {
     margin-top: 15px;
   }
+
   #header .container {
     display: flex;
     flex-direction: column;
@@ -152,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.nav-menu li + li {
+.nav-menu li+li {
   margin-left: 30px;
 }
 
@@ -178,12 +187,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover>a:before,
+.nav-menu .active>a:before {
   visibility: visible;
   width: 25px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: #fff;
   text-decoration: none;
 }
@@ -240,7 +253,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #18d26e;
   text-decoration: none;
 }
@@ -281,7 +296,8 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links,
+#header.header-top h2 {
   display: none;
 }
 
@@ -303,6 +319,7 @@ h1, h2, h3, h4, h5, h6 {
   #header.header-top {
     height: 60px;
   }
+
   #header.header-top h1 {
     font-size: 26px;
   }
@@ -340,6 +357,7 @@ section .container {
   section {
     top: 120px;
   }
+
   section.section-show {
     top: 80px;
   }
@@ -540,7 +558,8 @@ section .container {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
@@ -569,7 +588,8 @@ section .container {
   z-index: 1;
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -729,7 +749,8 @@ section .container {
   background: #35e888;
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
   color: #fff;
 }
 
@@ -764,7 +785,8 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background: #18d26e;
 }
 
@@ -964,7 +986,7 @@ section .container {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -997,7 +1019,8 @@ section .container {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1007,31 +1030,37 @@ section .container {
   color: #fff;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
+.contact .php-email-form input:-ms-input-placeholder,
+.contact .php-email-form textarea:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
+.contact .php-email-form input::-ms-input-placeholder,
+.contact .php-email-form textarea::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
@@ -1061,6 +1090,7 @@ section .container {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1070,6 +1100,7 @@ section .container {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1104,7 +1135,8 @@ section .container {
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1138,7 +1170,7 @@ section .container {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1183,4 +1215,96 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+/* =========================
+   Portfolio — Dark Table Cards
+   ========================= */
+:root{
+  --accent: #18d26e;
+  --bg-dark: #0b0f14;           /* card bg */
+  --bg-page: #0a0e12;           /* section bg (already dark in your theme) */
+  --text: #e5e7eb;              /* main text */
+  --muted: #9aa4b2;             /* value text */
+  --divider: rgba(255,255,255,.06);
+  --ring: rgba(24,210,110,.35);
+}
+
+/* ===== Filters (keep your current pills, just match theme) ===== */
+#portfolio-flters{
+  display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.25rem;padding-left:0;list-style:none;
+}
+#portfolio-flters li{
+  cursor:pointer;padding:.45rem .85rem;border-radius:999px;line-height:1;border:1px solid rgba(255,255,255,.15);
+  color:#fff;background:transparent;user-select:none;transition:.15s;
+}
+#portfolio-flters li:hover{ border-color:var(--accent); color:var(--accent); }
+#portfolio-flters li.filter-active{ background:var(--accent); border-color:var(--accent); color:#0b0f14; }
+
+/* ===== Kill Isotope layout, use flex (equal-height rows) ===== */
+.portfolio .portfolio-container{ display:flex !important; flex-wrap:wrap !important; gap:1.25rem !important;
+  position:static !important; height:auto !important; }
+.portfolio .portfolio-container .portfolio-item{
+  position:static !important; transform:none !important; left:auto !important; top:auto !important;
+  flex:1 1 100%; display:flex; flex-direction:column; height:100%;
+}
+@media (min-width:768px){
+  .portfolio .portfolio-container .portfolio-item{ flex:1 1 calc(50% - 0.625rem); }
+}
+
+/* ===== Card look ===== */
+.portfolio .portfolio-item{
+  background:var(--bg-dark); color:var(--text);
+  border:1px solid rgba(255,255,255,.08); border-radius:18px; padding:1.1rem 1.2rem;
+  box-shadow:0 10px 30px rgba(0,0,0,.35); transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+  outline:none;
+}
+.portfolio .portfolio-item:hover,
+.portfolio .portfolio-item:focus{ transform:translateY(-2px); box-shadow:0 18px 40px rgba(0,0,0,.5); border-color:rgba(255,255,255,.12); }
+.portfolio .portfolio-item:focus-visible{ box-shadow:0 0 0 3px var(--ring); }
+
+/* Title */
+.portfolio .portfolio-item__title{ font-size:1.65rem; font-weight:800; letter-spacing:.2px; margin:0 0 .75rem 0; }
+
+/* “Table” rows: label left (green), value right */
+.portfolio .portfolio-table{ width:100%; border-collapse:separate; border-spacing:0; margin:0; flex:1 1 auto; }
+.portfolio .portfolio-row{ display:grid; grid-template-columns: 220px 1fr; gap:.75rem; align-items:center; padding:.7rem 0; }
+@media (max-width: 520px){ .portfolio .portfolio-row{ grid-template-columns: 150px 1fr; } }
+.portfolio .portfolio-label{ color:var(--accent); font-weight:700; }
+.portfolio .portfolio-value{ color:var(--text); opacity:.92; text-align:right; }
+.portfolio .portfolio-row.is-muted .portfolio-value{ color:var(--muted); }
+
+.portfolio .hr{ height:1px; background:var(--divider); margin:.35rem 0; border-radius:1px; }
+
+/* Badge (e.g., COMPLETED) */
+.badge-soft-success{
+  display:inline-block; padding:.25rem .6rem; border-radius:999px; font-size:.82rem; font-weight:700; letter-spacing:.4px;
+  color:#0b0f14; background:var(--accent); box-shadow:0 0 0 1px rgba(24,210,110,.25) inset;
+}
+
+/* Tech pills */
+.tech-list{ display:flex; flex-wrap:wrap; gap:.5rem .6rem; justify-content:flex-end; }
+.tech-pill{
+  display:inline-flex; align-items:center; padding:.35rem .65rem; border-radius:999px; font-size:.85rem; font-weight:600;
+  color:var(--text); background:rgba(24,210,110,.08); border:1px solid rgba(24,210,110,.25);
+}
+
+/* Footer button */
+.portfolio .portfolio-item__footer{ display:flex; justify-content:center; margin-top:1.2rem; }
+.portfolio .btn-ghost{
+  display:inline-flex; align-items:center; gap:.5rem; padding:.75rem 1.25rem; border-radius:999px; font-weight:800;
+  color:var(--accent); background:transparent; border:1.5px solid rgba(24,210,110,.4); text-decoration:none; transition:.15s;
+}
+.portfolio .btn-ghost:hover{ border-color:var(--accent); background:rgba(24,210,110,.08); }
+
+/* Popup theme (Venobox) */
+.vbox-overlay{ background:rgba(0,0,0,.9) !important; }
+.vbox-title, .vbox-num{ color:#fff !important; }
+.vbox-close{ color:#fff !important; opacity:.95 !important; }
+
+/* Safety */
+.portfolio .portfolio-item__title, .portfolio .portfolio-value{ overflow-wrap:anywhere; }
+.portfolio .portfolio-item.no-detail { cursor: default; }
+.portfolio .portfolio-item.no-detail:hover {
+  transform: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
 }

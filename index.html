@@ -52,9 +52,14 @@
       </nav><!-- .nav-menu -->
       <div class="social-links">
         <!-- <a href="#" class="twitter"><i class="icofont-twitter"></i></a> -->
-        <a class="facebook" href="https://www.facebook.com/ducseul/"><i class="icofont-facebook"></i></a>
-        <a class="instagram" href="https://www.instagram.com/ducseul/"><i class="icofont-instagram"></i></a>
-        <a class="github" href="https://github.com/ducseul">
+        <a class="linkedin" target="_blank"
+          href="https://www.linkedin.com/in/nguy%E1%BB%85n-minh-%C4%91%E1%BB%A9c-32b548103/"><i
+            class="icofont-linkedin"></i></a>
+        <a class="facebook" target="_blank" href="https://www.facebook.com/ducseul/"><i
+            class="icofont-facebook"></i></a>
+        <a class="instagram" target="_blank" href="https://www.instagram.com/ducseul/"><i
+            class="icofont-instagram"></i></a>
+        <a class="github" target="_blank" href="https://github.com/ducseul">
           <svg class="bi bi-github" fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -497,52 +502,373 @@
         <h2>Portfolio</h2>
         <p>My Works</p>
       </div>
+
+      <!-- Filters -->
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
+          <ul id="portfolio-flters" class="list-unstyled">
             <li class="filter-active" data-filter="*">All</li>
             <li data-filter=".filter-app">App</li>
-            <!-- <li data-filter=".filter-card">Card</li> -->
             <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-cli">CLI Tool</li>
           </ul>
         </div>
       </div>
-      <div class="row portfolio-container">
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img alt="" class="img-fluid" src="assets/img/safoapp/home.png" style=" border-radius: 8px;" />
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a class="venobox" data-gall="portfolioGallery" href="assets/img/safoapp/home.png" title="App 1"><i
-                    class="bx bx-plus"></i></a>
-                <a class="venobox" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  href="/portfolio/safoapp-portfolio-details.html" title="Portfolio Details"><i
-                    class="bx bx-link"></i></a>
+
+      <!-- Cards container (flex – equal row heights) -->
+      <div class="portfolio-container">
+
+        <!-- Vietnam International Defence Expo 2024 -->
+        <article class="portfolio-item filter-web vbox-card" tabindex="0">
+          <header class="portfolio-item__title">Vietnam International Defence Expo 2024</header>
+          <div class="portfolio-table">
+            <div class="portfolio-row">
+              <div class="portfolio-label">Type</div>
+              <div class="portfolio-value">Web / Dashboards</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Client</div>
+              <div class="portfolio-value">Ministry of Defence (Viet Nam)</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Duration</div>
+              <div class="portfolio-value">Oct 2024 – Dec 2024 <span class="badge-soft-success"
+                  style="margin-left:.6rem;">COMPLETED</span></div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Role</div>
+              <div class="portfolio-value">Leader • Dev • DevOps</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Highlights</div>
+              <div class="portfolio-value">
+                80k+ CCU registration/lookup; real‑time analytics & heatmaps; crowd dashboards
+              </div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Tech Stack</div>
+              <div class="portfolio-value tech-list">
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">Redis</span>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img alt="" class="img-fluid" src="assets/img/safoweb/img1.png" style=" border-radius: 8px;" />
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a class="venobox" data-gall="portfolioGallery" href="assets/img/portfolio/portfolio-2.jpg"
-                  title="Web 3"><i class="bx bx-plus"></i></a>
-                <a class="venobox" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  href="/portfolio/safoweb-portfolio-details.html" title="Portfolio Details"><i
-                    class="bx bx-link"></i></a>
+          <footer class="portfolio-item__footer">
+            <a href="#" class="btn-ghost">View Details <span aria-hidden="true">→</span></a>
+          </footer>
+          <!-- <a class="venobox vbox-hidden" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
+           href="/portfolio/vietnam-defence-expo-2024.html" data-title="Vietnam International Defence Expo 2024"></a> -->
+        </article>
+
+        <!-- WhozBossInsight -->
+        <article class="portfolio-item filter-cli vbox-card" tabindex="0">
+          <header class="portfolio-item__title">WhozBossInsight</header>
+          <div class="portfolio-table">
+            <div class="portfolio-row">
+              <div class="portfolio-label">Type</div>
+              <div class="portfolio-value">Analytics App</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Duration</div>
+              <div class="portfolio-value">Aug 2025 –<span class="badge-soft-success"
+                  style="margin-left:.6rem;">Now</span></div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Role</div>
+              <div class="portfolio-value">Solution Architect • DevOps • Data Engineer</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Highlights</div>
+              <div class="portfolio-value">
+                ETL from Redmine/Jira/Git, AI summaries (Ollama), weekly reporting
+              </div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Tech Stack</div>
+              <div class="portfolio-value tech-list">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Redis</span>
+                <span class="tech-pill">Docker</span>
+                <span class="tech-pill">CI/CD</span>
               </div>
             </div>
           </div>
-        </div>
+          <footer class="portfolio-item__footer">
+            <a href="#" class="btn-ghost">View Details <span aria-hidden="true">→</span></a>
+          </footer>
+          <!-- <a class="venobox vbox-hidden" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
+           href="/portfolio/whozbossinsight.html" data-title="WhozBossInsight"></a> -->
+        </article>
+
+        <!-- VOffice Projects -->
+        <article class="portfolio-item filter-web vbox-card" tabindex="0">
+          <header class="portfolio-item__title">VOffice Projects (Multiple Clients)</header>
+          <div class="portfolio-table">
+            <div class="portfolio-row">
+              <div class="portfolio-label">Type</div>
+              <div class="portfolio-value">Web (Enterprise)</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Duration</div>
+              <div class="portfolio-value">Jun 2020 –<span class="badge-soft-success"
+                  style="margin-left:.6rem;">Now</span></div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Role</div>
+              <div class="portfolio-value">Leader • Developer</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Highlights</div>
+              <div class="portfolio-value">
+                Requirements, features, ops, performance tuning, reviews & mentoring
+              </div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Tech Stack</div>
+              <div class="portfolio-value tech-list">
+                <span class="tech-pill">ZK Framework</span>
+                <span class="tech-pill">Hibernate</span>
+                <span class="tech-pill">Oracle</span>
+                <span class="tech-pill">Java 8</span>
+              </div>
+            </div>
+          </div>
+          <footer class="portfolio-item__footer">
+            <a href="#" class="btn-ghost">View Details <span aria-hidden="true">→</span></a>
+          </footer>
+          <!-- <a class="venobox vbox-hidden" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
+           href="/portfolio/voffice-suite.html" data-title="VOffice Projects"></a> -->
+        </article>
+
+        <!-- ApiForwarder Gateway -->
+        <article class="portfolio-item filter-cli filter-web vbox-card" tabindex="0">
+          <header class="portfolio-item__title">ApiForwarder Gateway</header>
+          <div class="portfolio-table">
+            <div class="portfolio-row">
+              <div class="portfolio-label">Type</div>
+              <div class="portfolio-value">Web / Service</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Duration</div>
+              <div class="portfolio-value">Aug 2023 –<span class="badge-soft-success"
+                  style="margin-left:.6rem;">Now</span></div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Role</div>
+              <div class="portfolio-value">Developer • System Design</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Highlights</div>
+              <div class="portfolio-value">
+                REST logging, load balancing, mock APIs, request cache
+              </div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Tech Stack</div>
+              <div class="portfolio-value tech-list">
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">Redis</span>
+              </div>
+            </div>
+          </div>
+          <footer class="portfolio-item__footer">
+            <a href="#" class="btn-ghost">View Details <span aria-hidden="true">→</span></a>
+          </footer>
+          <!-- <a class="venobox vbox-hidden" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
+           href="/portfolio/apiforwarder-gateway.html" data-title="ApiForwarder Gateway"></a> -->
+        </article>
+
+        <!-- SAFO NFC Business/Personal Card -->
+        <article class="portfolio-item filter-app vbox-card" tabindex="0">
+          <header class="portfolio-item__title">SAFO NFC Business/Personal Card</header>
+          <div class="portfolio-table">
+            <div class="portfolio-row">
+              <div class="portfolio-label">Type</div>
+              <div class="portfolio-value">Android App</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Duration</div>
+              <div class="portfolio-value">Jun 2019 – Oct 2019 <span class="badge-soft-success"
+                  style="margin-left:.6rem;">COMPLETED</span></div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Role</div>
+              <div class="portfolio-value">Mobile & Backend Dev • System Architecture • BA</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Highlights</div>
+              <div class="portfolio-value">
+                NFC/QR sharing, templates, discounts, reports
+              </div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Tech Stack</div>
+              <div class="portfolio-value tech-list">
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">Android (Java)</span>
+                <span class="tech-pill">MySQL</span>
+                <span class="tech-pill">CI/CD</span>
+              </div>
+            </div>
+          </div>
+          <footer class="portfolio-item__footer">
+            <a href="#" class="btn-ghost">View Details <span aria-hidden="true">→</span></a>
+          </footer>
+          <a class="venobox vbox-hidden" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
+            href="/portfolio/safoweb-portfolio-details.html" data-title="SAFO NFC Business/Personal Card"></a>
+        </article>
+
+        <!-- Music Streaming Website -->
+        <article class="portfolio-item filter-web vbox-card" tabindex="0">
+          <header class="portfolio-item__title">Music Streaming Website</header>
+          <div class="portfolio-table">
+            <div class="portfolio-row">
+              <div class="portfolio-label">Type</div>
+              <div class="portfolio-value">Web</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Duration</div>
+              <div class="portfolio-value">Jun 2019 – Oct 2019 <span class="badge-soft-success"
+                  style="margin-left:.6rem;">COMPLETED</span></div>
+
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Role</div>
+              <div class="portfolio-value">Full‑stack Developer</div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Highlights</div>
+              <div class="portfolio-value">
+                Smart crawling, caching, fast discovery
+              </div>
+            </div>
+            <div class="hr"></div>
+
+            <div class="portfolio-row">
+              <div class="portfolio-label">Tech Stack</div>
+              <div class="portfolio-value tech-list">
+                <span class="tech-pill">Java Servlet</span>
+                <span class="tech-pill">Bootstrap 4</span>
+                <span class="tech-pill">SQL Server</span>
+              </div>
+            </div>
+          </div>
+          <footer class="portfolio-item__footer">
+            <a href="#" class="btn-ghost">View Details <span aria-hidden="true">→</span></a>
+          </footer>
+          <!-- <a class="venobox vbox-hidden" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
+           href="/portfolio/music-streaming-site.html" data-title="Music Streaming Website"></a> -->
+        </article>
+
       </div>
     </div>
   </section>
+  <script>
+    (function () {
+      // 1) Disable Isotope (template default)
+      var $grid = window.jQuery ? jQuery('.portfolio-container') : null;
+      if ($grid && $grid.data('isotope')) {
+        $grid.isotope('destroy');
+        $grid.attr('style', '');
+        $grid.find('.portfolio-item').attr('style', '');
+      }
+
+      // 2) Filters
+      const bar = document.getElementById('portfolio-flters');
+      const cards = [...document.querySelectorAll('.portfolio-item')];
+      bar?.addEventListener('click', e => {
+        const li = e.target.closest('li'); if (!li) return;
+        bar.querySelectorAll('li').forEach(x => x.classList.remove('filter-active'));
+        li.classList.add('filter-active');
+        const sel = li.getAttribute('data-filter');
+        cards.forEach(c => c.style.display = (sel === '*' || c.matches(sel)) ? '' : 'none');
+      });
+
+      // 3) Init Venobox if present
+      if (window.jQuery && jQuery.fn.venobox) {
+        jQuery('.venobox').venobox({
+          border: '0', numeratio: false, infinigall: false
+        });
+      }
+
+      // 4) Card behavior
+      cards.forEach(card => {
+        const trigger = card.querySelector('.venobox');  // hidden anchor
+        const btn = card.querySelector('.btn-ghost');
+
+        if (!trigger || !trigger.getAttribute('href')) {
+          // No detail page
+          if (btn) btn.remove();
+          card.classList.add('no-detail');
+          return;
+        }
+
+        const open = ev => { ev && ev.preventDefault(); trigger.click(); };
+
+        // Click anywhere on card
+        card.addEventListener('click', ev => {
+          if (ev.target.closest('a.btn-ghost')) return open(ev);
+          if (!window.getSelection || !window.getSelection().toString()) open(ev);
+        });
+
+        // Keyboard
+        card.addEventListener('keydown', ev => {
+          if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); open(ev); }
+        });
+      });
+    })();
+  </script>
+
   <!-- End Portfolio Section -->
   <!-- ======= Contact Section ======= -->
   <section class="contact" id="contact">
