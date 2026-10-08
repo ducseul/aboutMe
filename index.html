@@ -5,12 +5,71 @@
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Ducseul's Curriculum Vitae</title>
-  <meta content="" name="description" />
-  <meta content="" name="keywords" />
+  <title>DucseulInc — Software Solutions &amp; Consulting</title>
+  <meta content="DucseulInc is a Vietnam-based software company delivering enterprise web applications, backend APIs, database solutions and DevOps pipelines — from requirements to deployment." name="description" />
+  <meta content="DucseulInc, software company, Java, Spring Boot, ZK Framework, DevOps, Vietnam" name="keywords" />
+  <meta content="DucseulInc" name="author" />
+  <meta content="index, follow" name="robots" />
+  <link href="https://ducseul.com/" rel="canonical" />
+
+  <!-- Open Graph -->
+  <meta content="website" property="og:type" />
+  <meta content="https://ducseul.com/" property="og:url" />
+  <meta content="DucseulInc — Software Solutions & Consulting" property="og:title" />
+  <meta content="Vietnam-based software company: enterprise web apps, backend APIs, database design and DevOps — from requirements to deployment." property="og:description" />
+  <meta content="https://ducseul.com/assets/img/og-image.png" property="og:image" />
+  <meta content="1200" property="og:image:width" />
+  <meta content="630" property="og:image:height" />
+  <meta content="DucseulInc" property="og:site_name" />
+  <meta content="en_US" property="og:locale" />
+
+  <!-- Twitter Card -->
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="DucseulInc — Software Solutions & Consulting" name="twitter:title" />
+  <meta content="Vietnam-based software company: enterprise web apps, backend APIs, database design and DevOps." name="twitter:description" />
+  <meta content="https://ducseul.com/assets/img/og-image.png" name="twitter:image" />
+
+  <!-- PWA / theme -->
+  <meta content="#18d26e" name="theme-color" />
+  <link href="site.webmanifest" rel="manifest" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DucseulInc",
+      "url": "https://ducseul.com/",
+      "logo": "https://ducseul.com/assets/img/logo.svg",
+      "image": "https://ducseul.com/assets/img/og-image.png",
+      "description": "Vietnam-based software company delivering enterprise web applications, backend APIs, database solutions and DevOps pipelines — from requirements to deployment.",
+      "email": "ducseul@gmail.com",
+      "telephone": "+84904777599",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nam Từ Liêm, Hà Nội",
+        "addressCountry": "VN"
+      },
+      "sameAs": [
+        "https://github.com/ducseul",
+        "https://www.facebook.com/ducseul/",
+        "https://www.instagram.com/ducseul/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "ducseul@gmail.com",
+        "telephone": "+84904777599",
+        "availableLanguage": ["en", "vi"]
+      }
+    }
+  </script>
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon" />
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="assets/img/icon-192.png" rel="apple-touch-icon" sizes="192x192" />
+  <link href="assets/img/icon-512.png" rel="apple-touch-icon" sizes="512x512" />
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -36,17 +95,16 @@
   <!-- ======= Header ======= -->
   <header class="header-tops" id="header">
     <div class="container">
-      <h1><a href="index.html">Nguyễn Minh Đức</a></h1>
+      <h1><a href="index.html">DucseulInc</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a Java Developer &amp; Team Lead</h2>
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.svg" alt="DucseulInc" class="img-fluid"></a> -->
+      <h2>Software Solutions &amp; Consulting</h2>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <!-- <li><a href="#services">Services</a></li> -->
-          <li><a href="#portfolio">My Project</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -74,45 +132,41 @@
   </header><!-- End Header -->
   <!-- ======= About Section ======= -->
   <section class="about" id="about">
-    <!-- ======= About Me ======= -->
+    <!-- ======= About Us ======= -->
     <div class="about-me container">
       <div class="section-title">
         <h2>About</h2>
-        <p>Learn more about me</p>
+        <p>Learn more about DucseulInc</p>
       </div>
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img alt="" class="img-fluid" src="assets/img/me.jpeg" />
+          <img alt="DucseulInc logo" class="img-fluid" src="assets/img/logo-full.svg" />
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Software Developer &amp; Team Lead</h3>
+          <h3>Software Company &amp; Engineering Team</h3>
           <p class="font-italic">
-            Around <span id="exp-years"></span> years in software development (Java/Spring, ZK Framework)
-            and <span id="lead-years"></span> years leading developer teams. Experienced with CI/CD, Agile/Scrum,
-            and end-to-end delivery from requirements to deployment.
+            DucseulInc is a Vietnam-based software company founded by engineer Nguyễn Minh Đức. We bring
+            <span>5+</span> years of hands-on experience building Java/Spring and ZK enterprise systems, and
+            <span>3+</span> years of leading development teams, to every project we deliver.
           </p>
 
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 14 May 1999</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> (+84) 375 377 012</li>
-                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Bắc Từ Liêm, Hà Nội</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Company:</strong> DucseulInc</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Headquarters:</strong> Nam Từ Liêm, Hà Nội</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Founder:</strong> Nguyễn Minh Đức</li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
                 <li>
                   <i class="icofont-rounded-right"></i>
-                  <strong>Age:</strong> <span id="age"></span>
-                </li>
-                <li>
-                  <i class="icofont-rounded-right"></i>
                   <strong>Field:</strong> Software Engineering
                 </li>
                 <li>
                   <i class="icofont-rounded-right"></i>
-                  <strong>Working Email:</strong>
+                  <strong>Email:</strong>
                   <a href="mailto:ducseul@gmail.com">ducseul@gmail.com</a>
                 </li>
                 <li>
@@ -124,78 +178,50 @@
             </div>
 
           </div>
-          <p>I focus on building reliable systems and improving team velocity. Comfortable across backend APIs, database
-            design, and DevOps pipelines (Docker, CI/CD). I enjoy mentoring teammates and documenting best practices.
-          </p>
+          <p>We focus on building reliable systems and improving delivery velocity. Comfortable across backend APIs,
+            database design, and DevOps pipelines (Docker, CI/CD) — with mentoring, clear processes and well-written
+            documentation baked into how we work.</p>
         </div>
       </div>
-    </div><!-- End About Me -->
+    </div><!-- End About Us -->
     <!-- ======= Counts ======= -->
     <div class="counts container">
       <div class="row">
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
           <div class="count-box">
             <i class="icofont-briefcase"></i>
-            <span id="count-projects" data-toggle="counter-up">10</span>
-            <p>Projects</p>
+            <span data-toggle="counter-up">10</span>
+            <p>Projects Delivered</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
           <div class="count-box">
-            <i class="icofont-ui-calendar"></i>
-            <span id="count-exp" data-toggle="counter-up">0</span>
-            <p>Years Experience</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="icofont-certificate"></i>
-            <span id="count-toeic" data-toggle="counter-up">710</span>
-            <p>TOEIC</p>
+            <i class="icofont-code-alt"></i>
+            <span data-toggle="counter-up">5</span>
+            <p>Years of Engineering</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
           <div class="count-box">
             <i class="icofont-users-alt-5"></i>
-            <span id="count-lead" data-toggle="counter-up">0</span>
-            <p>Years as Team Lead</p>
+            <span data-toggle="counter-up">3</span>
+            <p>Years Leading Teams</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="icofont-settings"></i>
+            <span data-toggle="counter-up">4</span>
+            <p>Core Services</p>
           </div>
         </div>
       </div>
-      <script>
-        (function () {
-          // ====== CONFIG ======
-          const birthDate = new Date(1999, 4, 14); // May 14, 1999
-          const devStartYear = 2021;               // started working
-          const leadStartYear = 2023;              // started leading
-          const today = new Date();
-
-          // Calculate age
-          let age = today.getFullYear() - birthDate.getFullYear();
-          if (today < new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate())) age--;
-          document.getElementById("age").textContent = age;
-
-          // Dev experience (rounded up)
-          let devYears = today.getFullYear() - devStartYear + 1;
-          document.getElementById("exp-years").textContent = devYears;
-          document.getElementById("count-exp").textContent = devYears;
-
-          // Lead experience (rounded up)
-          let leadYears = today.getFullYear() - leadStartYear + 1;
-          document.getElementById("lead-years").textContent = leadYears + "+";
-          document.getElementById("count-lead").textContent = leadYears;
-
-          // Static counters (optional if you want to keep them dynamic too)
-          document.getElementById("count-projects").textContent = "10";
-          document.getElementById("count-toeic").textContent = "710";
-        })();
-      </script>
-
     </div><!-- End Counts -->
-    <!-- ======= Skills  ======= -->
+    <!-- ======= Expertise  ======= -->
     <div class="skills container">
       <div class="section-title">
-        <h2>Skills</h2>
+        <h2>Expertise</h2>
+        <p>What we work with every day</p>
       </div>
 
       <div class="row skills-content">
@@ -252,255 +278,127 @@
           </div>
         </div>
       </div>
-    </div><!-- End Skills -->
-    <!-- ======= Interests ======= -->
+    </div><!-- End Expertise -->
+    <!-- ======= Core Values ======= -->
     <div class="interests container">
       <div class="section-title">
-        <h2>Interests</h2>
+        <h2>Core Values</h2>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-4">
           <div class="icon-box">
-            <i class="ri-movie-line" style="color: #ffbb2c;"></i>
-            <h3>Video Making</h3>
+            <i class="ri-shield-check-line" style="color: #ffbb2c;"></i>
+            <h3>Reliability First</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
-            <i class="ri-flight-takeoff-line" style="color: #5578ff;"></i>
-            <h3>Traveling</h3>
+            <i class="ri-team-line" style="color: #5578ff;"></i>
+            <h3>Collaboration</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="ri-book-open-line" style="color: #e80368;"></i>
-            <h3>Reading Books</h3>
+            <h3>Knowledge Sharing</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
           <div class="icon-box">
-            <i class="ri-music-2-line" style="color: #e361ff;"></i>
-            <h3>Music</h3>
+            <i class="ri-lightbulb-flash-line" style="color: #e361ff;"></i>
+            <h3>Practical Innovation</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-code-s-slash-line" style="color: #47aeff;"></i>
-            <h3>Coding Tools</h3>
+            <h3>Clean Code</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-lightbulb-flash-line" style="color: #ffa76e;"></i>
-            <h3>Personal Projects</h3>
+            <i class="ri-settings-3-line" style="color: #ffa76e;"></i>
+            <h3>Automation</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-team-line" style="color: #11dbcf;"></i>
-            <h3>Collaboration</h3>
+            <i class="ri-flashlight-line" style="color: #11dbcf;"></i>
+            <h3>Fast Delivery</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-book-open-line" style="color: #4233ff;"></i>
-            <h3>Learning New Tech</h3>
+            <i class="ri-links-line" style="color: #4233ff;"></i>
+            <h3>Long-term Partnership</h3>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Interests -->
-    <!-- <div class="testimonials container">
-
-      <div class="section-title">
-        <h2>Testimonials</h2>
-      </div>
-
-      <div class="owl-carousel testimonials-carousel">
-
-        <div class="testimonial-item">
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-          <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-          <h3>Saul Goodman</h3>
-          <h4>Ceo &amp; Founder</h4>
-        </div>
-
-        <div class="testimonial-item">
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-          <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-          <h3>Sara Wilsson</h3>
-          <h4>Designer</h4>
-        </div>
-
-        <div class="testimonial-item">
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-          <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-          <h3>Jena Karlis</h3>
-          <h4>Store Owner</h4>
-        </div>
-
-        <div class="testimonial-item">
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-          <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-          <h3>Matt Brandon</h3>
-          <h4>Freelancer</h4>
-        </div>
-
-        <div class="testimonial-item">
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-          <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-          <h3>John Larson</h3>
-          <h4>Entrepreneur</h4>
-        </div>
-
-      </div>
-
-    </div>End Testimonials  -->
+    <!-- End Core Values -->
   </section><!-- End About Section -->
-  <!-- ======= Resume Section ======= -->
-  <section class="resume" id="resume">
-    <div class="container">
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Based on my latest CV</p>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>FPT University — Software Engineering</h4>
-            <h5>Aug 2017 – Sep 2021</h5>
-            <p><em>Hòa Lạc Hi-Tech Park, Thạch Thất, Hà Nội</em></p>
-            <ul>
-              <li>Member of Chess Club and 1st cohort of FPT Laboratory.</li>
-              <li>Participated in Cuộc đua số (FPT) and ACM‑ICPC contests.</li>
-            </ul>
-          </div>
-          <div class="resume-item">
-            <h4>Certificates &amp; Awards</h4>
-            <ul>
-              <li>TOEIC 710/990</li>
-              <li>Microsoft Technology Associate (MTA)</li>
-              <li>Emulative Soldier (Internal Excellence Award) 2023, 2024</li>
-              <li>Viettel Technology Warrior Award 2024</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Experience</h3>
-          <div class="resume-item">
-            <h4>Software Developer &amp; Team Lead — Viettel Solutions</h4>
-            <h5>Jun 2021 – Present</h5>
-            <p><em>Software Development Dept., Government Solutions Center</em></p>
-            <ul>
-              <li>Develop features, fix bugs, write ops docs; deploy and operate internal systems.</li>
-              <li>Lead project teams (&lt;20 members); plan work and allocate tasks.</li>
-              <li>Collaborate with FE/QA/stakeholders; provide technical guidance.</li>
-              <li>Optimize source code &amp; databases; mentor new staff.</li>
-            </ul>
-          </div>
-          <div class="resume-item">
-            <h4>Intern Developer — Viettel Solutions</h4>
-            <h5>Jun 2019 – Aug 2019</h5>
-            <p><em>Software Development Dept., Government Solutions Center</em></p>
-            <ul>
-              <li>Explored system operations; implemented features and bug fixes.</li>
-              <li>Coordinated with Solution Dept. to confirm requirements and error handling.</li>
-              <li>Tracked work via Redmine; delivered fixes and enhancements.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- End Resume Section -->
   <!-- ======= Services Section ======= -->
-  <!-- <section id="services" class="services">
+  <section class="services" id="services">
     <div class="container">
-
       <div class="section-title">
         <h2>Services</h2>
-        <p>My Services</p>
+        <p>What we do</p>
       </div>
-
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">Lorem Ipsum</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Sed ut perspiciatis</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Magni Dolores</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
-
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <div class="icon"><i class="bx bx-code-alt"></i></div>
+            <h4><a href="#contact">Custom Web Applications</a></h4>
+            <p>Enterprise web systems built with Java/Spring Boot and ZK — from requirements and database design to
+              deployment and operations.</p>
           </div>
         </div>
-
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="">Dele cardo</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            <div class="icon"><i class="bx bx-server"></i></div>
+            <h4><a href="#contact">Backend APIs &amp; Integrations</a></h4>
+            <p>REST APIs, service gateways and third-party integrations with logging, request caching and load
+              balancing.</p>
           </div>
         </div>
-
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="">Divera don</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            <div class="icon"><i class="bx bx-data"></i></div>
+            <h4><a href="#contact">Database Design &amp; Tuning</a></h4>
+            <p>Schema design, query optimization and safe migrations on Oracle, PostgreSQL and SQL Server.</p>
           </div>
         </div>
-
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-cloud"></i></div>
+            <h4><a href="#contact">DevOps &amp; CI/CD</a></h4>
+            <p>Dockerized deployments, automated pipelines and monitoring for stable, repeatable releases.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-group"></i></div>
+            <h4><a href="#contact">Team Augmentation &amp; Leadership</a></h4>
+            <p>Experienced developers and tech leads embedded in your team — with mentoring, planning and clear
+              processes.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-wrench"></i></div>
+            <h4><a href="#contact">Maintenance &amp; Modernization</a></h4>
+            <p>Long-term support, bug fixing, performance tuning and legacy system upgrades.</p>
+          </div>
+        </div>
       </div>
-
     </div>
-  </section>End Services Section -->
+  </section><!-- End Services Section -->
   <!-- ======= Portfolio Section ======= -->
   <section class="portfolio" id="portfolio">
     <div class="container">
       <div class="section-title">
         <h2>Portfolio</h2>
-        <p>My Works</p>
+        <p>Our Works</p>
       </div>
 
       <!-- Filters -->
@@ -875,13 +773,13 @@
     <div class="container">
       <div class="section-title">
         <h2>Contact</h2>
-        <p>Contact Me</p>
+        <p>Contact Us</p>
       </div>
       <div class="row mt-2">
         <div class="col-md-6 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-map"></i>
-            <h3>My Address</h3>
+            <h3>Our Office</h3>
             <p>Nam Từ Liêm, Hà Nội</p>
           </div>
         </div>
@@ -908,14 +806,14 @@
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
+            <h3>Email Us</h3>
             <p>ducseul@gmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
+            <h3>Call Us</h3>
             <p>(+84)90 4777 599</p>
             <p>(+84)37 5377 012</p>
           </div>
